@@ -1,0 +1,4 @@
+rootProject.name = 'female_piglins'
+
+include 'src/main/java'
+include 'src/main/resources'

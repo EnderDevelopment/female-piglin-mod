@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "female_piglins",
+  "version": "${version}",
+  "name": "Female Piglins",
+  "description": "A mod that adds female piglins with different personalities.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/EnderDevelopment/female_piglins"
+  },
+  "license": "MIT",
+  "icon": "assets/female_piglins/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.female_piglins.FemalePiglinsMod"
+    ]
+  },
+  "mixins": [
+    "female_piglins.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.4",
+    "fabric-api": "*"
+  }
+}
